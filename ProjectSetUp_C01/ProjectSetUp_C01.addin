@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ProjectSetUp_C01</Text>
+    <Description>Project Setup</Description>
+    <Assembly>ProjectSetUp_C01.dll</Assembly>
+    <FullClassName>ProjectSetUp_C01.Command</FullClassName>
+    <ClientId>040BF6C4-069D-4CFC-873F-34D101F5304A</ClientId>
+    <VendorId>Javier Bustamante Munguira</VendorId>
+    <VendorDescription>javierbustamantemunguira@gmail.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ProjectSetUp_C01</Name>
+    <Assembly>ProjectSetUp_C01.dll</Assembly>
+    <FullClassName>ProjectSetUp_C01.App</FullClassName>
+    <ClientId>6CBDBA80-1A3E-4F0B-B9D7-7F126AF88ABC</ClientId>
+    <VendorId>Javier Bustamante Munguira</VendorId>
+    <VendorDescription>javierbustamantemunguira@gmail.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
